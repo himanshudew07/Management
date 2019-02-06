@@ -32,6 +32,7 @@ public class EmployeeService {
 		employees.put(2,new Employee(2, "Kamal", 1270));
 		employees.put(3,new Employee(3, "Suresh", 7600));
 		employees.put(4,new Employee(4, "Seema", 34000));
+		employees.put(4,new Employee(5, "Rahul", 38000));
 	}
 	@GET
 	@Produces(value = {MediaType.APPLICATION_XML,MediaType.APPLICATION_JSON})
