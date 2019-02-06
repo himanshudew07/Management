@@ -92,6 +92,10 @@ public class EmployeeService {
 		}
 	}
 	
+	public void display() {
+	 System.out.println("This is my display method");
+	}
+	
 	/*@Produces(MediaType.APPLICATION_JSON)
 	@Path("/a/b")
 	public String getProjectResource() {
